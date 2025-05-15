@@ -13,6 +13,8 @@ const UploadForm = () => {
       '68246803995940872ef2',  // ✅ ID exact du bucket
       ID.unique(),             // ou un ID personnalisé
       file                     // le fichier sélectionné
+      [Permission.read(Role.any())]
+      
     );
 
 

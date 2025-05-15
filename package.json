@@ -1,6 +1,7 @@
 {
   "name": "plateforme-cours",
   "version": "0.1.0",
+  "homepage": "https://cfpazy.netlify.app",
   "private": true,
   "dependencies": {
     "appwrite": "^13.0.2",
